@@ -1,0 +1,463 @@
+/* This is the overall header */
+.navigation-container {
+    height: 70px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.navigation-container img {
+    float: left;
+    width: 1.5cm;
+    height: auto;
+    margin-left: 5cm;
+    margin-top: 1cm;
+}
+
+.navigation-container h1 {
+    float: left;
+    height: auto;
+    margin-left: 1cm;
+    margin-top: 1.65cm;
+    font-family: 'Gill Sans', Arial;
+    font-size: 36px;
+    font-weight: bolder;
+    color: coral;
+}
+
+.navigation-container ul {
+    font-family: Helvetica, Arial;
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-right: 5cm;
+    margin-top: 2cm;
+    word-spacing: 0.25cm;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+span {
+    font-family: Helvetica, Arial;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 0.25cm;
+    color: coral;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+a:visited {
+    color: coral;
+}
+
+.current {
+    font-weight: bold;
+}
+
+/* This is style for the body in HOME page */
+
+img:hover {
+    filter:alpha(Opacity=50);
+    opacity: 0.5;
+}
+
+.main-overall {
+    margin-top: 4cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
+}
+
+.img-1 {
+    width: 50%;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 0.5cm;
+    margin-top: 0cm;
+    float: right;
+    display: block;
+}
+
+.h2-1 {
+    font-family: Helvetica, Arial;
+    font-size: 18px;
+    font-style: italic;
+    color: coral;
+    font-weight: bolder;
+    float: left;
+    display: inline;
+    margin-top: 5.4cm;
+}
+
+.p-1 {
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    text-align: left;
+    line-height: 0.5cm;
+    color: grey;
+    font-weight: lighter;
+    float: left;
+    display: inline;
+    margin-top: 0.5cm;
+    width: 30%;
+    height: auto;
+}
+
+.img-2 {
+    width: 30%;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 0.5cm;
+    margin-top: 3cm;
+    clear:both;
+    float: left;
+    display: block;
+}
+
+.h2-2 {
+    font-family: Helvetica, Arial;
+    font-size: 18px;
+    font-style: italic;
+    color: coral;
+    font-weight: bolder;
+    clear: both;
+    float: right;
+    display: inline;
+    margin-top: -8.5cm;
+    margin-right: 11cm;
+
+}
+
+.p-2 {
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    text-align: left;
+    line-height: 0.5cm;
+    color: grey;
+    font-weight: lighter;
+    clear: both;
+    float: right;
+    display: block;
+    margin-top: -7.5cm;
+    margin-right: 11.2cm;
+    width: 20%;
+    height: auto;
+}
+
+.img-3 {
+    width: 30%;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 0.5cm;
+    margin-top: -3cm;
+    clear:both;
+    float: right;
+    display: block;
+}
+
+.h2-3 {
+    font-family: Helvetica, Arial;
+    font-size: 18px;
+    font-style: italic;
+    color: coral;
+    font-weight: bolder;
+    clear: both;
+    float: right;
+    display: inline;
+    margin-top: -4.5cm;
+    margin-right: 10.5cm;
+}
+
+.p-3 {
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    text-align: left;
+    line-height: 0.5cm;
+    color: grey;
+    font-weight: lighter;
+    clear: both;
+    float: right;
+    display: block;
+    margin-top: -3.5cm;
+    margin-right: 11cm;
+    width: 20%;
+    height: auto;
+}
+
+.footer-index {
+    font-family: Helvetica, Arial;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: left;
+    color: grey;
+    clear: both;
+    float: left;
+    display: block;
+    margin-top: 2cm;
+    margin-left: 5cm;
+    margin-bottom: 1cm;
+}
+
+/* This is style for the body in GALLERGY page */
+
+.p-4 {
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    text-align: center;
+    line-height: 0.5cm;
+    color: grey;
+    font-weight: lighter;
+    display: block;
+    margin-top: 3cm;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+}
+
+.img-4 {
+    width: 30%;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 0.5cm;
+    margin-top: 2cm;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.caption1 {
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    font-weight: bolder;
+    font-style: italic;
+    color: grey;
+    width: 50%;
+    margin-top: 1cm;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* This is style for the body in ABOUT page */
+
+.img-5 {
+    width: 50%;
+    border: solid 1px coral;
+    border-radius: 15px;
+    padding: 0.5cm;
+    margin-top: 3cm;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.p-5 {
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    text-align: center;
+    line-height: 0.5cm;
+    color: grey;
+    font-weight: lighter;
+    display: block;
+    margin-top: 1cm;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+}
+
+.img-6 {
+    width: 50%;
+    border: solid 1px coral;
+    border-radius: 15px;
+    padding: 0.5cm;
+    margin-top: 2cm;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* This is style for the body in PROJECT page */
+
+.p-6 {
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    text-align: center;
+    line-height: 0.5cm;
+    color: grey;
+    font-weight: lighter;
+    display: block;
+    margin-top: 1cm;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+}
+
+.img-7 {
+    width: 40%;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 0.5cm;
+    margin-top: 2cm;
+    margin-left: 0;
+    display: block;
+}
+
+.h2-4 {
+    font-family: Helvetica, Arial;
+    font-size: 18px;
+    font-style: italic;
+    color: coral;
+    font-weight: bolder;
+    clear: both;
+    float: right;
+    display: inline;
+    margin-top: -12cm;
+    margin-right: 6.5cm;
+}
+
+.p-7 {
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    line-height: 0.5cm;
+    color: grey;
+    font-weight: lighter;
+    text-align: center;
+    clear: both;
+    float: right;
+    display: inline;
+    margin-top: -10cm;
+    margin-right: 2cm;
+    width: 40%;
+    height: auto;
+}
+
+.img-8 {
+    width: 40%;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 0.5cm;
+    clear: both;
+    float: right;
+    margin-top: 2cm;
+    margin-right: 0;
+    display: block;
+}
+
+.h2-5 {
+    font-family: Helvetica, Arial;
+    font-size: 18px;
+    font-style: italic;
+    color: coral;
+    font-weight: bolder;
+    clear: both;
+    float: left;
+    display: inline;
+    margin-top: -12cm;
+    margin-left: 6.5cm;
+}
+
+.p-8 {
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    line-height: 0.5cm;
+    color: grey;
+    font-weight: lighter;
+    text-align: center;
+    clear: both;
+    float: left;
+    display: inline;
+    margin-top: -10cm;
+    margin-left: 2cm;
+    width: 40%;
+    height: auto;
+}
+
+.img-9 {
+    width: 52.6%;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 0.5cm;
+    clear: both;
+    margin-top: 22cm;
+    margin-left: 0;
+    display: block;
+}
+
+.h2-6 {
+    font-family: Helvetica, Arial;
+    font-size: 18px;
+    font-style: italic;
+    color: coral;
+    font-weight: bolder;
+    clear: both;
+    float: right;
+    display: inline;
+    margin-top: -7.5cm;
+    margin-right: 5cm;
+}
+
+.p-9 {
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    line-height: 0.5cm;
+    color: grey;
+    font-weight: lighter;
+    text-align: center;
+    clear: both;
+    float: right;
+    display: inline;
+    margin-top: -5.5cm;
+    margin-right: 0.5cm;
+    width: 40%;
+    height: auto;
+}
+
+
+/* This is style for the body in AMERICAS, OCEANIA, EUROPE page */
+
+.h1 {
+    margin-top: 4cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    text-align: center;
+    height: auto;
+    font-family: 'Gill Sans', Arial;
+    font-size: 36px;
+    font-weight: bolder;
+    color: coral;
+}
+
+.navigation-bar-2 {
+    font-family: Helvetica, Arial;
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-top: 2cm;
+    word-spacing: 0.25cm;
+    list-style-type: none;
+}
+
+.img-10 {
+    width: 40%;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 0.5cm;
+    margin-top: 2cm;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
