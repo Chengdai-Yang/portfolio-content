@@ -7,19 +7,19 @@
 	<link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/caa942fe7a.js" crossorigin="anonymous"></script>
 	<title>HOME</title>
 </head>
 
 <body>
-    <header>
-        <img class="navigation-img" src="images/favicon.ico" alt="logo">
-        <h1 class="navigation-title" >Dallas Yang</h1>
-        <ul class="navigation-bar">
-            <li class="current"><a href="index.html">HOME<span>|</span></a></li>
-            <li ><a href="gallery.html">GALLERY<span>|</span></a></li>
-            <li><a href="project.html">PROJECT<span>|</span></a></li>
-            <li><a href="about.html">ABOUT</a></li>
+    <header class="header-index" id="nav_bar">
+        <h1 class="navigation-title" id="nav_title">Dallas Yang</h1>
+        <ul class="navigation-bar1" id="nav_content">
+            <li class="current"><a href="index.html" class="white-nav">HOME<span class="span1">|</span></a></li>
+            <li><a href="gallery.html" class="white-nav">GALLERY<span class="span1">|</span></a></li>
+            <li><a href="project.html" class="white-nav">PROJECT<span class="span1">|</span></a></li>
+            <li><a href="about.html" class="white-nav">ABOUT</a></li>
         </ul>
     </header>
 
@@ -48,9 +48,50 @@
     </main>
 
     <footer class="footer-index">
-		 &copy; 2022 Dalla Yang
+		 &copy; 2022 Dalla Yang <span>    </span><i class="fa-solid fa-camera" style="font-size:12px;color: darkgray;"></i>
 	</footer>
 
 </body>
 </html>
+
+<script>
+    window.onscroll = function() {nav_shrink()};
+    function nav_shrink() {
+        var distance = window.pageYOffset - document.getElementById("nav_content").getBoundingClientRect().top;
+        console.log(distance);
+        console.log("top", document.getElementById("nav_content").getBoundingClientRect().top);
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById("nav_title").style.fontSize = "50px";
+            document.getElementById("nav_content").style.fontSize = "24px";
+            if (distance >= 300) {
+                document.getElementById("nav_content").style.position = "fixed";
+                document.getElementById("nav_content").style.top = "0";
+                document.getElementById("nav_content").style.borderRadius = "10px";
+                document.getElementById("nav_content").style.backgroundColor = "white";
+                document.getElementById("nav_content").style.paddingLeft = "100px";
+                document.getElementById("nav_content").style.paddingRight = "100px";
+                document.getElementById("nav_content").style.paddingTop = "5px";
+                document.getElementById("nav_content").style.paddingBottom = "5px";
+
+            }
+            else {
+                document.getElementById("nav_content").style.position = null;
+                document.getElementById("nav_content").style.top = null;
+                document.getElementById("nav_content").style.background = null;
+                document.getElementById("nav_content").style.borderRadius = null;
+                document.getElementById("nav_content").style.backgroundColor = null;
+                document.getElementById("nav_content").style.paddingLeft = null;
+                document.getElementById("nav_content").style.paddingRight = null;
+                document.getElementById("nav_content").style.paddingTop = null;
+                document.getElementById("nav_content").style.paddingBottom = null;
+            }
+
+        }
+        else {
+            document.getElementById("nav_title").style.fontSize = "64px";
+            document.getElementById("nav_content").style.fontSize = "21px";
+        }
+    }
+
+</script>
 
